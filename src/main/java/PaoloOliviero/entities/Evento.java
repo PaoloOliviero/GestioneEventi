@@ -19,7 +19,7 @@ public class Evento {
     private String descrizione;
     @Column (name = "tipoEvento", nullable = false)
     private TipoEvento tipoEvento;
-    @Column (name = "titolo", nullable = false)
+    @Column (name = "numeroMassimoPartecipanti", nullable = false)
     private int numeroMassimoPartecipanti;
 
 

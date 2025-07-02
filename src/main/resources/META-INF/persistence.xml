@@ -6,6 +6,7 @@
         <!-- Il persistence unit ci serve per configurare la connessione ad uno specifico db -->
         <class>riccardogulin.entities.Student</class>
         <!-- Serve specificare l'elenco delle entities con tanto di package -->
+        <class>PaoloOliviero.entities.Evento</class>
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gestioneeventi"/>
             <!-- Dopo l'ultimo slash inserisco il nome del database al quale voglio collegarmi (IL DB DEVE ESISTERE PERO') -->
