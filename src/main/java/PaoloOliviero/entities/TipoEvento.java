@@ -1,4 +1,9 @@
 package PaoloOliviero.entities;
 
-public class TipoEvento {
+public enum TipoEvento {
+    NUZIALE,
+    CONFERENZA,
+    CONCERTO,
+    COMPLEANNO
 }
+
